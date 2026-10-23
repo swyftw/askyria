@@ -1,0 +1,14 @@
+
+name: Askyria
+version: 1.0.0
+main: com.askyria.plugin.AskyriaPlugin
+api-version: '1.21'
+commands:
+  playertag:
+    description: Manage player tags
+    usage: /playertag <player> <color|fade|fade3|remove>
+    permission: askyria.admin
+permissions:
+  askyria.admin:
+    description: Allows managing player tags
+    default: op
